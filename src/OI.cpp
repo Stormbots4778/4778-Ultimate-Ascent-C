@@ -5,3 +5,7 @@
 OI::OI() {
 
 }
+
+frc::Joystick* OI::GetJoystick() {
+	return &joy;
+}
